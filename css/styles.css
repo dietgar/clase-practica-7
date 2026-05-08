@@ -12,3 +12,316 @@ body{
     background-color: #fff;
 }
 
+a{
+    text-decoration: none;
+    color:#323232;
+}
+
+header{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70%;
+    padding: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2)
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    padding-right: 30px;
+}
+
+nav a{
+    font-weight: 400;
+    padding-right: 50px;
+}
+
+.hero-section{
+    min-height: 100vh;
+    background-image: url(../img/background1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2)
+}
+
+.content{
+    text-align: center;
+    color: #151515;
+}
+
+.content h1{
+    font-weight: 500;
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+
+.content p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #4e4e4e;
+}
+
+
+.content .btn{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 16px 50px;
+    background-color: #58a9ff;
+    color: #fff;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+}
+
+.content .btn:hover{
+    background-color: #151515;
+}
+
+.services-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.cards-services-grid-container{
+    /* width: 100%; */
+    display: grid;
+    /* margin-top: 0px;
+    padding-top: 0px; */
+    grid-template-columns: 240px 240px;
+    /* border: 1px solid red; */
+    gap: 2em;
+}
+
+.cards-services-grid-container article{
+    padding: 0px;
+    margin: 0px;
+    width: 240px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.card-services-grid-alt{
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    /* margin: 20px; */
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    cursor: default;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.card-services-grid-alt:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-services-grid-alt h3{
+    font-weight: 600;
+    font-size: 36px;
+    margin: 15px;
+}
+
+.card-services-grid-alt .btn{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px 20px;
+    background-color: #58a9ff;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.card-services-grid-alt .btn:hover{
+    background-color: #151515;
+}
+
+.card-services-grid{
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    /* margin: 20px; */
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    cursor: default;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.card-services-grid:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-services-grid h3{
+    font-weight: 600;
+    font-size: 42px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.card-services-grid h4{
+    font-weight: 400;
+    font-family: sora, sans-serif;
+    font-size: 24px;
+    margin: 15px;
+}
+
+.card-services-grid p{
+    font-size: 16px;
+    color: #4e4e4e;
+    margin: 12px;
+}
+
+.cta-banner-section{
+    min-height: 50vh;
+    background-image: url(../img/cta-banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2)
+}
+
+.cta-banner-section .content{
+    text-align: end;
+    padding-right: 180px;
+}
+
+.cta-banner-section .content h2{
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.cta-banner-section .content p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: #dddddd;
+}
+
+.cta-banner-section .content .btn{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px 40px;
+    background-color: #58a9ff;
+    color: #fff;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.cta-banner-section .content .btn-alt{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px 40px;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+
+.cta-banner-section .content .btn:hover{
+    background-color: #151515;
+}
+
+.cta-banner-section .content .btn-alt:hover{
+    background-color: #58a9ff;
+    color: #ffffff;
+    border: 1px solid #58a9ff;
+}
+
+.projects-section{
+    margin: 100px auto;
+    max-width: 1100px;
+    /* background-color: red; */
+}
+
+.projects-section nav{
+    display: flex;
+    margin-left: 110px;
+    justify-content: space-between;
+}
+
+nav .projects-section-filter{
+    /* background-color: blue; */
+    display: flex;
+    max-width: 830px;
+    width: 100%;
+}
+
+nav .projects-section-filter .projects-item{
+    padding: 0px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #a4a4a4;
+    cursor: pointer;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    transition: 0.6s ease;
+}
+nav .projects-section-filter .active,
+nav .projects-section-filter .projects-item:hover{
+    color: #58a9ff;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+.gallery .project-image{
+    padding: 7px;
+    width: calc(100% / 3);
+}
+
+.gallery .project-image.hide{
+    display: none;
+}
+
+.gallery .project-image.show{
+    animation: animate 0.4s ease;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.gallery .project-image span{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery .project-image img{
+    width: 100%;
+    vertical-align: middle;
+    transition: 0.3s ease;
+}
+
+.gallery .project-image:hover img{
+    transform: scale(1.1);
+}
