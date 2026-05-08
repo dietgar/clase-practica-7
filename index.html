@@ -5,20 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase practica</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/d3620243d4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
+    <!-- Dietmar -->
     <header>
-
+        <div class="logo">
+            <a href=""><img src="img/logo-default-190x50.png" alt=""></a>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#team">Team</a>
+            <a href="#news">News</a>
+            <a href="#contacts">Contacts</a>
+            <a href=""><i class="fa-solid fa-share-nodes"></i></a>
+        </nav>
     </header>
 
     <main>
 
+        <section class="hero-section" id="home">
+            <div class="content">
+                <h1>Mobile App Development</h1>
+                <p>Since our stablishment, we have been delivering high-quality and sustainable<br> software solutions for corporate purposes of worldwide businesses.</p>
+                <a href="" class="btn">Get In Touch</a>
+            </div>
+        </section>
+
+        <section class="services-section" id="services">
+            <div class="img-container">
+                <img src="img/index-1-415x592.webp" alt="">
+            </div>
+            <div class="cards-services-grid-container">
+                <article class="card-services-grid-alt">
+                    <h3>What We Offer</h3>
+                    <a href="" class="btn">VIEW ALL SERVICES</a>
+                </article>
+                <article class="card-services-grid">
+                    <h3><i class="fa-solid fa-handshake"></i></h3>
+                    <h4>Corporate Solutions</h4>
+                    <p>Need specific software for your company? We are ready to develop it!</p>
+                </article>
+                <article class="card-services-grid">
+                    <h3><i class="fa-solid fa-headset"></i></h3>
+                    <h4>Corporate Solutions</h4>
+                    <p>Need specific software for your company? We are ready to develop it!</p>
+                </article>
+                <article class="card-services-grid">
+                    <h3><i class="fa-solid fa-cloud"></i></h3>
+                    <h4>Corporate Solutions</h4>
+                    <p>Need specific software for your company? We are ready to develop it!</p>
+                </article>
+                
+            </div>
+        </section>
+
+        <section class="cta-banner-section">
+            <div class="content">
+                <h2>Let's Develop Your Next Great App!</h2>
+                <p>Do you need a unique software solution for your company? We know how to help you!</p>
+                
+                    <a href="" class="btn">get in touch</a>
+                    <a href="" class="btn-alt">learn more</a>
+                
+            </div>
+        </section>
+
+        <section class="projects-section" id="projects">
+            <!-- <h2>Latest Projects</h2>
+            <p>In our portfolio, you can browse the latest products developed for our clients for different corporate purposes. Our qualified team of interface designers and software developers is always ready to create something unique for you.</p> -->
+            <nav>
+                <div class="projects-section-filter">
+                    <span class="projects-item active" data-name="all">ALL</span>
+                    <span class="projects-item" data-name="mobile-apps">MOBILE APPS</span>
+                    <span class="projects-item" data-name="custom-software">CUSTOM SOFTWARE</span>
+                    <span class="projects-item" data-name="qa-testing">QA & TESTING</span>
+                    <span class="projects-item" data-name="ux-design">UX AND DESIGN</span>
+                </div>
+            </nav>
+            <div class="gallery">
+                <div class="project-image" data-name="ux-design"><span><img src="img/fullwidth-gallery-1-420x350.jpg"></span></div>
+                <div class="project-image" data-name="mobile-apps"><span><img src="img/fullwidth-gallery-2-420x350.jpg"></span></div>
+                <div class="project-image" data-name="custom-software"><span><img src="img/fullwidth-gallery-3-420x350.jpg"></span></div>
+                <div class="project-image" data-name="qa-testing"><span><img src="img/fullwidth-gallery-4-420x350.jpg"></span></div>
+                <div class="project-image" data-name="ux-design"><span><img src="img/fullwidth-gallery-5-420x350.jpg"></span></div>
+                <div class="project-image" data-name="mobile-apps"><span><img src="img/fullwidth-gallery-6-420x350.jpg"></span></div>
+                <div class="project-image" data-name="qa-testing"><span><img src="img/fullwidth-gallery-7-420x350.jpg"></span></div>
+                <div class="project-image" data-name="qa-testing"><span><img src="img/fullwidth-gallery-8-420x350.jpg"></span></div>
+            </div>
+        </section>
+
+        <section class="team-section">
+
+        </section>
+
+        <section class="news-section">
+
+        </section>
+
+        <section class="contacts-section">
+
+        </section>
+
+        <section class="maps-section">
+
+        </section>
+
     </main>
 
+
+    <!-- Gabriel -->
     <footer>
         
     </footer>
 
+
+    <script src="js/project-filterable.js"></script>
 </body>
 </html>
