@@ -370,3 +370,105 @@ nav .projects-section-filter .projects-item:hover{
 .gallery .project-image:hover img{
     transform: scale(1.1);
 }
+
+
+.team-div{
+    text-align: center;
+}
+
+.img-team{
+    width: 390px;
+    height: auto;   
+}
+
+.div-fotos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.team-div h2{
+    font-size: 50px;
+}
+
+
+.div-foto{
+    position: relative;
+    display: inline-block;
+    
+}
+
+
+.img-team{
+    filter:grayscale(100%);
+    transition: 0.4s ease;
+}
+
+.img-team:hover{
+    
+    filter: grayscale(0%);
+}
+
+
+.div-fotos{
+    
+
+    margin-bottom: 150px;
+    
+}
+
+section .GMWU_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+    text-align: center;
+}
+
+section .GMWU_section .GMWU_section_left{
+   
+   padding: 100px;
+  
+
+}
+
+section .GMWU_section .GMWU_section_left .div_h4p{
+   
+    font-size: 26px;
+    display:flex;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+
+
+}
+
+
+
+
+section .GMWU_section .GMWU_section_left h1{
+   
+   font-size: 50px;
+   margin-bottom: 10px;
+  
+
+}
+
+section .GMWU_section .GMWU_section_left .numeros_GMWU{
+    display:flex;
+    color: #a4a4a4;
+    font-size: 40px;
+    justify-content: space-between;
+    border-bottom: 5px solid #a4a4a4;
+}
+
+
+
+/* section .GMWU_section .GMWU_section_right{
+
+} */
