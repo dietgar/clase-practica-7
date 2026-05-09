@@ -371,6 +371,45 @@ nav .projects-section-filter .projects-item:hover{
     transform: scale(1.1);
 }
 
+.contenedor{
+    max-width:1200px;
+    margin: 0 auto;
+    border-bottom: 2px solid #4e4e4e;
+    padding: 50px;
+}
+
+.footer{
+    background-color: #151133;
+
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 100%;
+}
+
+.footer-links div span a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+    padding-left: 65px;
+}
+
+.contenedor2{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 0px;
+    justify-content: space-between; 
+}
+
+
 .experience-section .content{
     display: flex;
     align-items: center;
